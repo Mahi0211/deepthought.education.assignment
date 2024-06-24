@@ -122,7 +122,7 @@
   gap: 0px;
   opacity: 0px;
   margin-right: 12px;
-  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+  cursor: pointer;
   transition: transform 0.3s ease;
 }
 
@@ -147,8 +147,8 @@
   opacity: 0px;
   background: #fdfdfd;
   box-shadow: 0px 4px 4px 0px #00000040;
-  overflow: hidden; /* Hide overflow content */
-  transition: width 0.3s ease; /* Smooth transition for width */
+  overflow: hidden;
+  transition: width 0.3s ease;
 }
 
 #inside-slider-bot #bot-h1 {
@@ -176,34 +176,34 @@
 
 /* Drawer Content */
 #drawer-content {
-  display: none; /* Hide the drawer content initially */
+  display: none;
   padding: 20px;
 }
 
 #inside-slider-top.show {
-  width: 392px; /* New width for the drawer when expanded */
+  width: 392px;
 }
 #inside-slider-top.show h1 {
-    display: block; /* Show the h1 when drawer is expanded */
+    display: block;
   }
 
 #inside-slider-bot.show {
-  width: 392px; /* New width for the drawer when expanded */
+  width: 392px;
 }
 
 #inside-slider-bot.show #drawer-content {
-  display: block; /* Show the drawer content when expanded */
+  display: block;
 }
 
 #inside-slider-bot.show #bot-h1 h1 {
-  display: none; /* Hide the h1 when drawer is expanded */
+  display: none;
 }
 #inside-slider-bot.show #bot-h1 {
-  display: none; /* Hide the h1 when drawer is expanded */
+  display: none;
 }
 
 #inside-slider-top img.flipped {
-  transform: scaleX(-1); /* Flip the image horizontally */
+  transform: scaleX(-1);
 }
 
 #bot-li {
@@ -527,9 +527,9 @@ textarea::placeholder {
   display: flex;
   gap: 14px;
   margin-top: 27px;
-  position: absolute; /* Position it absolutely within the relative container */
-  right: 0; /* Align to the right */
-  bottom: 0; /* Align to the bottom */
+  position: absolute;
+  right: 0;
+  bottom: 0;
   margin: 0;
 }
 
